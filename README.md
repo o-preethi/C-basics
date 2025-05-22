@@ -17,3 +17,24 @@ this calculator performs addition,subtraction,multiplication.divison.
 
 ->TOPICS USED:
 DATA TYPES,ARITHEMATIC OPERATORS,SWITCH 
+
+#contact manager -
+
+In this code we give the user a menu with options to add a contact,search for a contact,view all contacts,delete a contact. 
+
+for this we initinally created a structure of name contact which contains name,phone,email strings.
+then based on the chose of the user. we used switch case. if add a contact is chosen we create a sturture with contacts variable in which we store all the new contacts.
+
+we took another int variable contact count to maintain the count of all the contants which updates after adding each contact
+
+we display all the data avaiable in structure if view details is chosen.
+
+if either delete or search a contact is chosen we ask the user to enter the name of the contact and using string comparison from <string.h> library.
+if match we perform required operation.
+
+if none of the above we ask the user to exit 
+
+-> TOPICS USED
+
+DATA TYPES,STRINGS,OPERATIONS ON STRINGS,STRUCTURES,LOOPS,SWITCH
+
